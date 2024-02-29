@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        </head>
+    <div style="background-color: burlywood;">
+    <h1 style="color: rgb(2, 11, 11);">Trần Thu Hiền ISER</h1>
+    <hr />
+    <p>embe siu cute.</p>
+    </div>
+<img src="images/z4687746402993_d29195570e8ebc0bb5f92763fa27a513.jpg" alt="Ảnh của Hiền" style="width: 40%;"/>
+    <ol>
+        <li style="color: black;">Mục Tiêu</li>
+        <li>Kĩ Năng</li>
+        <ul>
+            <li>Ăn nhiều</li>
+            <li>Ngủ Nhiều</li>
+        </ul>
+    </ol>
+    <table border="3">
+        <tr>
+            <th>Certificate</th>
+            <th>Giải thưởng</th>
+        </tr>
+        <tr>
+            <td style="color: color-mix(in srgb, color percentage, color percentage);">Chien binh xanh</td>
+            <td style="color: color-mix(in srgb, color percentage, color percentage);">Aptis B2</td>
+        </tr>
+        <tr>
+            <td style="color: color-mix(in srgb, color percentage, color percentage);">HSG Cap Thanh Pho</td>
+            <td style="color: color-mix(in srgb, color percentage, color percentage);">Bao thu</td>
+        </tr>
+    </table>
+</body>
+</html>
