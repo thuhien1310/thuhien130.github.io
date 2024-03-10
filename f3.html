@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Create product list with CSS3</title>
+  <style type="text/css">
+    .ProductDetails {
+      display: none;
+    }
+
+    .Product img {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      box-shadow: 5px 5px 10px #aaa;
+    }
+
+    .ProductName {
+      font-weight: bold;
+    }
+
+    .ProductPrice {
+      font-style: italic;
+    }
+
+    .ProductPrice:before {
+      content: " - ";
+    }
+
+    .Product {
+      text-align: center;
+      width: 150px;
+      margin: 0px 20px;
+      float: left;
+      cursor: pointer;
+    }
+
+    .Product:hover .ProductDetails {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="Product">
+      <img src="imgs/Rose.png" />
+      <div class="ProductDetails">
+        <span class="ProductName">Hoa Hồng</span> 
+        <span class="ProductPrice">30.000đ</span>
+      </div>
+    </div>
+
+    <div class="Product">
+      <img src="imgs/Tulip.jpg" /> 
+      <div class="ProductDetails">
+        <span class="ProductName">Hoa Tulip</span>
+        <span class="ProductPrice">50.000đ</span>
+      </div>
+    </div>
+
+    <div class="Product">
+      <img src="imgs/Daisy.jpg" />
+      <div class="ProductDetails">
+        <span class="ProductName">Hoa Cúc họa mi</span>
+        <span class="ProductPrice">10.000đ</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
