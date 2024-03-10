@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Untitled Document</title>
+    <style type="text/css">
+        TD {
+            font-weight: bold;
+        }
+
+        table {
+            border: 2px solid #000066;
+            border-collapse: collapse;
+            margin: auto;
+            max-width: 550px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="POST" name="frmApp">
+        <table border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#000066">
+            <tr>
+                <td align="right" height="50">
+                    <i><font color="#FFFFFF" size="5"><b>APPLICATION FORM</b></font></i>&nbsp;
+                </td>
+            </tr>
+
+            <tr align="center" bgcolor="#FFFFFF">
+                <table align="center" border="0">
+                    <tr>
+                        <td height="10"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">First Name: &nbsp;</td>
+                        <td>
+                            <input type="text" name="txtName" value="" size="35">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="right">Birthday: </td>
+                        <td><input type="date" name="txtBirthday" value="" size="35"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Education: </td>
+                        <td>
+                            <input type="checkbox" name="cb01" value="graduate"> Graduate
+                            <input type="checkbox" name="cb02" value="post"> Post Graduate
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Gender: </td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Salary: </td>
+                        <td><input type="text" name="salary" value="" size="35"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Remarks: </td>
+                        <td><textarea name="remarks" rows="4" cols="40">Type your text here</textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td align="right">Country: &nbsp; </td>
+                        <td>
+                            <select name="country">
+                                <option value="Australia">Australia</option>
+                                <option value="VietNam">Viet Nam</option>
+                                <option value="thailand">Thai Lan</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="5"></td>
+                    </tr>
+                    <tr> 
+                        <td colspan="2" align="center">
+                            <input type="submit" name="send" value="SUBMIT">
+                            <input type="reset" name="cancel" value="RESET">
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td height="10"></td>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
