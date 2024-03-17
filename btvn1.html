@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex02</title>
+    
+</head>
+<body>
+  
+    <input type="text" id="number1">
+    <input type="text" id= "number2">
+    <button onclick="cong()" >Ket Qua</button>
+</body>
+<script>
+    function cong() {
+
+var  number1 = document.getElementById("number1").value;
+var number2 =document.getElementById("number2").value;
+if (number1 == null || number1 == "" || isNaN(number1)) 
+{ alert("Number A is formatted incorrect ");
+
+} else if (number2 == null || number2 == "" || isNaN(number2)) 
+{ alert("Number B is formatted incorrect");
+
+}else {
+
+var result = parseFloat(number1) + parseFloat(number2); 
+alert("result:\n" +
+ number1 + "+ " + number2 + " =" + "\n"+ result );
+
+}
+
+    }
+</script>
+</html>
